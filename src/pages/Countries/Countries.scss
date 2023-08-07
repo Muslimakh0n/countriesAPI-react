@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0 60px;
+  }
+  
+  
+  
+  .searchInput{
+    position: relative;
+    width:480px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    color: #848484;
+  }
+  
+  .select-region{
+    width: 200px;
+  }
+  
+  
+  
+  @media only  screen and (max-width:768px){
+    .container{
+      max-width: 540px !important;
+    }
+  
+  
+    .main{
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .searchInput{
+      width: 300px;
+    }
+  }

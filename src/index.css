@@ -1,0 +1,30 @@
+:root {
+  --bg-body: #f3f3f3;
+  --bg-header: #fff;
+  --text-color: #000;
+}
+.dark {
+  --bg-body: #202c36;
+  --bg-header: #1b242c;
+  --text-color: #fff !important;
+}
+
+body {
+  background: var(--bg-body);
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+p,strong,h1,h2,h3,h4,h5,h6,div{
+  color: var(--text-color) !important;
+}
